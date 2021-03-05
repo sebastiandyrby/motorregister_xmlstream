@@ -1,0 +1,41 @@
+Overview of dependencies:
+
+
+Installation Linux:
+1.
+Dependency: nodejs
+Command for installation: 'sudo apt install nodejs'
+
+2.
+Dependency: npm
+Command for installation: 'sudo apt install npm'
+
+3.
+Dependency: xml-stream
+Command for installation: 'npm install xml-stream'
+
+
+Installation Windows:
+1.
+Dependency: nodejs
+Download to install: https://nodejs.org/en/download/
+
+2. 
+Dependency: npm
+When installing nodejs on Windows, npm is included.
+
+3. 
+Dependency: xml-stream
+Command for installation: 'npm install xml-stream'
+
+
+To run script:
+1. 
+Ensure path in script points to the correct data-file. 
+
+2.
+In command prompt, navigate to folder where xmlstream.js is located ('cd ../lib').
+
+3. 
+To run, type: node xmlstream.js
+When script ends, output.json is saved in the directory selected.
